@@ -1,17 +1,17 @@
-import Vue from 'vue'
-import App from './App.vue'
-import router from './router'
-import store from './store'
-import Buefy from 'buefy'
-import 'firebaseui/dist/firebaseui.css'
+import Vue from 'vue';
+import App from './App.vue';
+import router from './router';
+import store from './store';
+import Buefy from 'buefy';
+import 'firebaseui/dist/firebaseui.css';
 
-Vue.config.productionTip = false
+Vue.config.productionTip = false;
 
-Vue.use(Buefy)
+Vue.use(Buefy);
 
 new Vue({
 	router,
 	store,
 	render: h => h(App)
-}).$mount('#app')
+}).$mount('#app');
 
